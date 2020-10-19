@@ -1,12 +1,12 @@
-function add(num1, num2, showResult, phrase) {
+function addition(num1, num2, showResult, phrase) {
+    var total = num1 + num2;
     if (showResult) {
-        var total = num1 + num2;
         console.log(phrase + total);
     }
     else {
-        return num1 + num2;
+        return total;
     }
 }
 var printResult = true;
 var resultPhrase = 'Result is ';
-add(1, 2, printResult, resultPhrase);
+addition(1, 2, printResult, resultPhrase);
