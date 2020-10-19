@@ -1,0 +1,23 @@
+{
+  "name": "typescript-learnings",
+  "version": "1.0.0",
+  "description": "This is the beginning of my dive into typescript",
+  "main": "add.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HebleV/typescript-learnings.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HebleV/typescript-learnings/issues"
+  },
+  "homepage": "https://github.com/HebleV/typescript-learnings#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
