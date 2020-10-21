@@ -1,12 +1,18 @@
-function addition(num1, num2, showResult, phrase) {
-    var total = num1 + num2;
-    if (showResult) {
-        console.log(phrase + total);
-    }
-    else {
-        return total;
+function fizzbuzz() {
+    var i;
+    for (i = 1; i < 50; i++) {
+        if (i % 15 === 0) {
+            return 'fizzbuzz';
+        }
+        else if (i % 3 === 0) {
+            return 'fizz';
+        }
+        else if (i % 5 === 0) {
+            return 'buzz';
+        }
+        else {
+            return 1;
+        }
     }
 }
-var printResult = true;
-var resultPhrase = 'Result is ';
-addition(1, 2, printResult, resultPhrase);
+fizzbuzz();
